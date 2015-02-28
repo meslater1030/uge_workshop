@@ -1,0 +1,34 @@
+    1  cd /c
+    The following are various ways to display what's in a particular directory.
+    See more by googling ls man since manuals aren't a thing on Windows.
+    2  ls -s
+    3  ls -S
+    4  ls -v
+    5  ls -x
+    6  ls -X
+    7  ls -l
+    8  info ls
+    9  ls -1
+   10  ls -a
+   11  ls --h
+   12  ls --help
+   23  ls -c
+   24  ls -x
+These let us view the history.  Less takes that history and displays it in a
+user friendly way.
+   48  history
+   51  history | less
+We were trying to access help here and didn't do it properly.  You can access help
+in less by opening something in less first and then typing h.
+   52  ls -h
+   53  less h
+   54  less H
+This sorts the history
+   59  history | sort
+This sorts the history and displays in less
+   60  history | sort | less
+This does not sort the history because it's in the wrong order.
+   61  history | less | sort
+This puts the history into a new text file
+   62  history > moving_around.txt
+
