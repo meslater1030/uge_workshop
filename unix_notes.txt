@@ -33,3 +33,4 @@ This puts the history into a new text file
    62  history > moving_around.txt
 
 I'M MAKING ALL KINDS OF CRAZY CHANGES!
+I'M MAKING ANOTHER CHANGE
